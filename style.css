@@ -1,0 +1,24 @@
+.abc{
+    display:flex;
+    /* set items direction is row or colom */
+    flex-direction:row-reverse; 
+    /* flex-direction ake pettatama spaces hadanoo */
+    justify-content:center;
+    
+     /* cover the items left and right side */
+    flex-wrap:nowrap; 
+    /* flex-direction akata virudda pettata items aling karanava */
+    align-items:center;
+    /* align-items aketa space hadanava */
+    align-content:space-around; 
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black ;
+    display: flex;
+    align-content:space-between;
+    
+}
+
+
